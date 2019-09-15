@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #212121
+}
+
+.center {
+  text-align: center;
+}
+
+.font-regular {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 800;
+}
