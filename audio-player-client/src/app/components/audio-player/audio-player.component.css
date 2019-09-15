@@ -1,0 +1,39 @@
+.controller {
+  position: absolute;
+  bottom: 0;
+}
+
+.seek-bar {
+  width: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 0;
+}
+
+.seek-bar .slider {
+  width: 100%;
+  padding: 0;
+  top: -24px;
+}
+
+.main-controls {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.volume-controls {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.volume-controls .slider {
+  min-width: 100px;
+  margin-right: 1em;
+}
+
+.volume-controls .toggle {
+  vertical-align: middle;
+}
+

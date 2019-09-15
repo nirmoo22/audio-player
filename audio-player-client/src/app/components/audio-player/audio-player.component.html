@@ -1,0 +1,24 @@
+<mat-toolbar class="controller">
+  <div class="seek-bar">
+    <mat-slider class="slider" min="0" max="100" step="1"
+    [(ngModel)]="currentProgress" color="primary"></mat-slider>
+  </div>
+  <div class="main-controls">
+    <button mat-icon-button color="accent">
+      <mat-icon>skip_previous</mat-icon>
+    </button>
+    <button mat-icon-button color="accent">
+      <mat-icon>play_arrow</mat-icon>
+    </button>
+    <button mat-icon-button color="accent">
+      <mat-icon>skip_next</mat-icon>
+    </button>
+  </div>
+  <div class="volume-controls">
+    <mat-slider class="slider" min="0" max="1" step="0.05" (change)="volumeChanged()"
+    [(ngModel)]="musicVolume"></mat-slider>
+    <button class="toggle" mat-icon-button color="accent" (click)="toggleVolume()">
+      <mat-icon>{{volumeLabel}}</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

@@ -4,11 +4,22 @@
 }
 
 body {
-  background: #212121
+  background: #000000;
+  position: relative;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
 .center {
   text-align: center;
+}
+
+.vertical-center {
+  vertical-align: middle
 }
 
 .font-regular {
